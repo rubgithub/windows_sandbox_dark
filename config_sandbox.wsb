@@ -1,0 +1,14 @@
+<Configuration>
+  <Locale>en-US</Locale>
+  <MappedFolders>
+    <MappedFolder>
+      <HostFolder>C:\temp\sandbox</HostFolder>
+      <SandboxFolder>C:\Users\WDAGUtilityAccount\Downloads\sandbox</SandboxFolder>
+      <ReadOnly>true</ReadOnly>
+    </MappedFolder>
+  </MappedFolders>
+  <LogonCommand>
+    <Command>powershell.exe -ExecutionPolicy Bypass -File C:\Users\WDAGUtilityAccount\Downloads\sandbox\script\config_sandbox.ps1</Command>
+  </LogonCommand>
+  <DisableMic>true</DisableMic>
+</Configuration>
